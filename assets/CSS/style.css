@@ -96,11 +96,63 @@ body {
     color: #fff; 
 }
 
+.divider {
+    width: 100%;
+    height: 10vh;
+    background-image: linear-gradient(#0f181f, #2d3e48);
+    background-color: #2d3e48;
+    border: 3px solid #0f181f;
+}
+
 .section {
     display: block;
-    height: 25vh;
+    height: 60vh;
     width: 100%;
     color: black;
     background-color: #edf2fb;
     border: 1px solid black;
+}
+
+#our-mission {
+    height: 600px;
+}
+
+#mission {
+    display: flex;
+    justify-content: center;
+}
+#mission-header {
+    margin: 0 auto;
+    font-size: 300%;
+    margin-top: 30px;
+}
+
+#left-mission {
+    border: 1px solid #0f181f;
+    float: left;
+    clear: both;
+    width: 33%;
+    margin-bottom: 20px;
+}
+
+#right-mission {
+    border: 1px solid #0f181f;
+    float: right;
+    clear: both;
+    width: 33%;
+    margin-bottom: 20px;
+}
+
+#center-mission {
+    border: 1px solid #0f181f;
+    margin: 0 auto;
+    clear: both;
+    width: 33%;
+    margin-bottom: 20px;
+}
+
+.mission-images {
+    width: 200px;
+    border-radius: 50%;
+    margin: 0 auto;
 }

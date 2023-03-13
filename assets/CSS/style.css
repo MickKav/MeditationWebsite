@@ -119,65 +119,8 @@ body {
 
 #mission {
     display: flex;
+    justify-content: center;
     align-items: center;
 }
 
-#mission-header {
-    display: block;
-    text-align: center;
-    margin: 0 auto;
-    font-size: 300%;
-    margin-top: 30px;
-    padding: 30px 0 50px 0;
-}
-
-h3 {
-    margin: 5px;
-}
-
-p {
-    margin: 5px;
-}
-/*
-#left-mission {
-    border: 1px solid #0f181f;
-    float: right;
-    clear: both;
-    height: 400px;
-    width: 33%;
-    margin-bottom: 20px;
-}
-
-#right-mission {
-    border: 1px solid #0f181f;
-    float: left;
-    clear: both;
-    height: 400px;
-    width: 33%;
-    margin-bottom: 20px;
-}
-
-#center-mission {
-    border: 1px solid #0f181f;
-    margin: 0 auto;
-    clear: both;
-    height: 400px;
-    width: 33%;
-    margin-bottom: 20px;
-}
-*/
-
-.mission-item {
-    border: 1px solid #0f181f;
-    height: 400px;
-    width: 33%;
-    margin: 2px;
-    padding: 10px;
-    font-size: 50px;
-}
-
-.mission-images {
-    width: 150px;
-    border-radius: 50%;
-    margin: 0 auto;
-}
+s

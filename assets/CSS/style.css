@@ -115,12 +115,69 @@ body {
 
 #our-mission {
     height: 600px;
+    width: 100%;
 }
 
 #mission {
+    margin-top: 60px;
+    width: 100%;
     display: flex;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
 }
+#mission-left {
+    width: 33%;
+}
 
-s
+#mission-left p {
+    text-align: left;
+}
+
+#mission-right {
+    height: 292.79px;
+    width: 33%;
+}
+
+#mission-right p {
+    text-align: right;
+}
+
+#mission-center {
+    height: 292.79px;
+    width: 33%;
+}
+
+#mission-center p {
+    text-align: center;
+}
+
+#mission-header {
+    margin-top: 50px;
+    font-size: 300%;
+    text-align: center;
+}
+
+.mission-items h3 {
+    text-align: center;
+}
+
+.mission-items p {
+    padding: 10px 20px;
+}
+
+.mission-images {
+    height: 130px;
+    width: 200px;
+    margin: 5% 32%;
+    border-radius: 50%; 
+    border: 1px solid #2d3e48;
+}
+
+#image-right {
+    width: 180px;
+}
+
+footer {
+    color: #0f181f;
+}

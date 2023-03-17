@@ -3,6 +3,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
     border: none;
     font-family: 'Montserrat', sans-serif;
 }
@@ -66,7 +67,7 @@ body {
     letter-spacing: 4px;
 
     width: 400px;
-    height: 200px;
+    height: 250px;
 
     padding-top: 40px;
     padding-left: 10px;
@@ -81,10 +82,10 @@ body {
 
 #cover-text-logo {
     color: #edf2fb;
-    width: 40px;
+    width: 60px;
     float: right;
     padding: 5px 30px 5px 5px;
-    margin-bottom: 0;
+    margin: 10px 15px 0 0;
 }
 
 #cover-text, #cover-text h2 {
@@ -98,15 +99,19 @@ body {
 
 .divider {
     width: 100%;
-    height: 10vh;
+    height: 5vh;
+    box-sizing: border-box;
     background-image: linear-gradient(#0f181f, #2d3e48);
+
     background-color: #2d3e48;
-    border: 3px solid #0f181f;
+    border-top: 3px solid #0f181f;
+    border-bottom: 3px solid #0f181f;
 }
 
 .section {
+    margin: 0;
     display: block;
-    height: 100vh;
+    height: 500px;
     width: 100%;
     color: black;
     background-color: #edf2fb;
@@ -114,7 +119,7 @@ body {
 }
 
 #our-mission {
-    height: 600px;
+    height: 500px;
     width: 100%;
 }
 
@@ -179,5 +184,94 @@ body {
 }
 
 footer {
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #0f181f;
+    height: auto;
+    width: 100vw;
+    padding-top: 40px;
+    color:  #edf2fb;
+}
+
+.footer-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.footer-content h3 {
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 3rem;
+}
+
+.footer-content p {
+    max-width: 500px;
+    margin: 10px auto;
+    line-height: 28px;
+    font-size: 14px;
+}
+
+.socials {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;
+}
+
+.socials li {
+    margin: 0 10px;
+}
+
+.socials a {
+    text-decoration: none;
+    color: #edf2fb;
+}
+
+.socials a i {
+    font-size: 1.1rem;
+    transition: color .4s ease;
+}
+
+.socials a:hover i {
+    color: #dbb890;
+}
+
+.footer-bottom {
+    background: #000;
+    width: 100vw;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-bottom p {
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+}
+
+.footer-bottom span {
+    text-transform: uppercase;
+    opacity: .4;
+    font-weight: 200;
+}
+
+#sign-up-button {
+    border: none;
+    background-color: #0f181f;
+    color: #edf2fb;
+    transition: all .4s ease;
+}
+
+#sign-up-button:hover {
+    border: 1px #0f181f;
+    padding: 5px 12px;
+    border-radius: 20px;
+    background-color: #dbb890;
     color: #0f181f;
 }

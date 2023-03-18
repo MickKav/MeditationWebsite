@@ -447,6 +447,8 @@ footer {
 }
 
 .course-cards {
+    background-color: #dbb890;
+    color: #0f181f;
     height: 700px;
     width: 40%;
 }
@@ -480,8 +482,6 @@ footer {
 }
 
 .meditation-card {
-    background-color: #dbb890;
-    color: #0f181f;
     float: left;
     display: flex;
     flex-direction: column;
@@ -496,8 +496,6 @@ footer {
 }
 
 .yoga-card {
-    background-color: #dbb890;
-    color: #0f181f;
     width: 40%;
     float: right;
     display: flex;

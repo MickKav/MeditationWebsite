@@ -425,3 +425,10 @@ footer {
 .grid-item:last-child {
     grid-column-start: 4;
 }
+
+/* courses */
+
+.courses {
+    height: 600px;
+    background-color: #0f181f;
+}

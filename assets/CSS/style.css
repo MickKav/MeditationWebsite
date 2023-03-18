@@ -129,7 +129,7 @@ body {
     height: 500px;
     width: 100%;
     color: #edf2fb;
-    background-color: #202a30;
+    background-color: #0f181f;
     border-top: 1px solid #2d3e48;
     border-bottom: 1px solid #2d3e48;
 }
@@ -143,30 +143,48 @@ body {
     margin-top: 60px;
     width: 100%;
     display: flex;
+    box-sizing: border-box;
     flex-direction: row;
     justify-content: center;
     align-items: center;
 }
 #mission-left {
     width: 33%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+    align-items: center;;
 }
 
 #mission-left p {
-    text-align: left;
+    text-align: center;
 }
 
 #mission-right {
+    display: flex;
+    flex-direction: column;
     height: 292.79px;
     width: 33%;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
 }
 
 #mission-right p {
-    text-align: right;
+    text-align: center;
 }
 
 #mission-center {
+    display: flex;
+    flex-direction: column;
     height: 292.79px;
     width: 33%;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: flex-start;
+    align-items: center;
 }
 
 #mission-center p {
@@ -190,7 +208,8 @@ body {
 .mission-images {
     height: 130px;
     width: 200px;
-    margin: 5% 32%;
+    padding: 0;
+    margin: 20px 180px;
     border-radius: 50%; 
     border: 2px solid #334753;
 }
@@ -526,4 +545,13 @@ footer {
     border: 1px solid #5a452d;
     background-color: #0d1216;
     margin: 0 15px;
+}
+
+/* sign up */
+
+.sign-up-hero {
+    height: 600px;
+    background-color: #0f181f;
+    background: url(../images/rain-condensation.png);
+    background-size: cover;
 }

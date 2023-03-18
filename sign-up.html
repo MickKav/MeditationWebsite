@@ -30,7 +30,26 @@
     </header>
     <section>
         <div class="sign-up-hero">
-            
+            <form class="signup-form" method="POST" action="#" class="signup-form">
+                <h2>Come join the club!</h2>
+                <label for="fname">First Name</label>
+                <input class="text-input" id="fname" name="first_name" type="text" required>
+                
+                <label for="lname">Last Name</label>
+                <input class="text-input" id="lname" name="last_name" type="text" required>
+                
+                <label for="email">Email Address</label>
+                <input class="text-input" type="email" id="email" name="email_address" required>
+                
+                <label for="meditation">Meditation</label>
+                <input type="radio" id="road" name="course_preference" value="meditation" required>
+                <label for="yoga">Yoga</label>
+                <input type="radio" id="yoga" name="course_preference" value="yoga" required>
+                <label for="both">Both</label>
+                <input type="radio" id="both" name="course_preference" value="both" required>
+                
+                <input class="join-button" type="submit" value="Let Go">
+            </form>
         </div>
     </section>
     <div class="divider"></div>

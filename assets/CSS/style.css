@@ -202,7 +202,7 @@ footer {
     right: 0;
     background: #0f181f;
     height: auto;
-    width: 100vw;
+    width: 100%;
     padding-top: 40px;
     color:  #edf2fb;
 }
@@ -255,9 +255,16 @@ footer {
     color: #dbb890;
 }
 
+#footer-logo {
+    float: right;
+    height: 30px;
+    width: 50px;
+    margin: 5px 0px 0px 10px;
+}
+
 .footer-bottom {
     background: #000;
-    width: 100vw;
+    width: 100%;
     padding: 20px 0;
     text-align: center;
 }
@@ -284,7 +291,101 @@ footer {
 #sign-up-button:hover {
     border: 1px #0f181f;
     padding: 5px 12px;
+    font-weight: 600;
     border-radius: 20px;
     background-color: #dbb890;
     color: #0f181f;
+}
+
+/* about */
+
+.about-container {
+    display: grid;
+    background-color: rgb(15, 24, 31);
+    height: 900px;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 1rem;
+}
+
+.grid-item {
+    text-align: center;
+    margin: auto;
+    border-radius: 5px;
+}
+
+.grid-col-span-2 {
+    grid-column: span 2;
+}
+
+.grid-col-span-3 {
+    grid-column: span 3;
+}
+
+.item-1 {
+    box-sizing: border-box;
+    background-color: #0f181f;
+    color: #edf2fb;
+    height: 100%;
+    width: 100%;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(15, 24, 31);
+    border-image: initial;
+    grid-row-start: 1;
+}
+
+.item-1 h2 {
+    font-size: 250%;
+    font-weight: 800;
+    margin: 50px auto 10px;
+}
+
+.item-1 ul {
+    margin: 10px auto;
+    list-style-type: none;
+}
+
+.item-1 li {
+    margin: 40px auto;
+}
+
+.item-2 {
+    background-color: #000;
+    background-image: url(../images/pexels-mohamed-almari-394919-1.png);
+    width: 100%;
+    height: 100%;
+    color: #fff;
+    grid-row-start: 2;
+}
+
+.item-3 {
+    background-color: #000;
+    color: #edf2fb;
+    height: 100%;
+    width: 100%;
+}
+
+.item-4 {
+    background-color: #2d3e48;
+    background: url(../images/ethan-rougon-zWIWNeEg4Uo-unsplash.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    grid-column-start: 1;
+    grid-row-start: 1;
+    grid-row-end: span 2;
+}
+
+.item-5 {
+    background-color: #000;
+    background-image: url(../images/pexels-pixabay-235777.jpg);
+    background-size: cover;
+    grid-row-start: 1;
+    width: 100%;
+    height: 100%;
+}
+
+.grid-item:last-child {
+    grid-column-start: 4;
 }

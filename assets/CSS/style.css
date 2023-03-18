@@ -128,8 +128,8 @@ body {
     display: block;
     height: 500px;
     width: 100%;
-    color: black;
-    background-color: #edf2fb;
+    color: #edf2fb;
+    background-color: #0f181f;
     border: 1px solid black;
 }
 
@@ -308,13 +308,6 @@ footer {
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(3, 1fr);
     gap: 1rem;
-}
-
-#about-logo {
-    position: relative;
-    width: 100px;
-    margin-top: 150px;
-    opacity: .82;
 }
 
 .grid-item {

@@ -48,6 +48,14 @@ body {
     color: #edf2fb;
 }
 
+#nav-links .fa-thin .fa-xmark-large {
+    display: none;
+}
+
+#nav-links .fa-regular .fa-bars {
+    display: none;
+}
+
 #nav-links ul li {
     font-size: 125%;
     list-style: none;
@@ -559,9 +567,11 @@ footer {
 
 .signup-form {
     margin: 150px 10% 0 0;
+    border: 2px solid #0f181f;
     color: #edf2fb;
     background-color: rgba(39, 61, 63, 0.6);
-    max-width: 400px;
+    border-radius: 60px 0 100px 20px;
+    max-width: 700px;
     position: absolute;
     right: 10%;
     padding: 30px;
@@ -597,11 +607,66 @@ footer {
     background-color: #6fbdcb;
     color: #edf2fb;
     display: block;
-    transition: color .5s ease;
+    cursor: pointer;
 }
 
 .join-button:hover {
     background-color: #0f181f;
     color: #6fbdcb;
+    transition: color 1s ease;
+    
+}
+.short-text {
+    display: none;
+}
+
+/* media queries */
+
+/* For larger to medium size screen size from 1200px wide and down */
+@media screen and (max-width: 1200px) {
+    #header {
+        height: 100px;
+    }
+
+    #logo {
+        margin-top: 20px;
+    }
+    
+    #cover-text {
+        top: 600px;
+        left: 50px;
+    }
+
+    .short-text {
+        display: inline-block;
+    }
+
+    .full-text {
+        display: none;
+    }
+
+    .sign-up-hero {
+        background-image: url(../images/pexels-aleksandr-slobodianyk-989941.jpg);
+        height: 1000px;
+    }
+
+    .signup-form {
+        left: 10%;
+    }
+
+    footer {
+        position: absolute;
+    }
+
+    .divider {
+        bottom: 290px;
+        position: absolute;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    #header {
+        height: 100px;
+    }
     
 }

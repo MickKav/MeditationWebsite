@@ -1,5 +1,5 @@
 # Serene Meditation
-A meditation/yoga site with access to courses and memberships to the public.
+Serene is a website designed for those looking for access to courses and memberships in meditation, yoga and wellness. People can find out on our website the styles of yoga we provide and the different types of methods to approach meditation.
 
 ## About This Project
 This project was intended to make easy access to well informed and educative courses on both Meditation and Yoga within the Dublin area.

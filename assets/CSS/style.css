@@ -645,22 +645,58 @@ footer {
         display: none;
     }
 
+    .course-cards {
+        font-size: 80%;
+    }
+
+    .about-container {
+        height: 909px;
+    }
+
+    .item-6 {
+        background-image: url(../images/lotus-nice.png);
+        grid-column-start: 1;
+        grid-column-end: 5;
+    }
+
+    .item-7, .item-8, .item-9 {
+        display: none;
+    }
+
     .sign-up-hero {
         background-image: url(../images/pexels-aleksandr-slobodianyk-989941.jpg);
         height: 1000px;
     }
 
     .signup-form {
-        left: 10%;
+        left: 20%;
+    }
+    
+    #mission {
+        font-size: 80%;
+    }
+
+    #mission-right {
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+
+    .mission-divider {
+        top: 800px;
+    }
+
+    .section {
+        height: 500px;
     }
 
     footer {
-        position: absolute;
+        position: relative;
     }
 
     .divider {
+        height: 3vh;
         bottom: 290px;
-        position: absolute;
+        position: inherit;
     }
 }
 

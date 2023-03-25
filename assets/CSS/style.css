@@ -12,6 +12,8 @@ body {
     color: #edf2fb;
 }
 
+/* Home Page*/
+
 #header {
     background-image: linear-gradient(#0f181f, #2d3e48);
 }
@@ -320,7 +322,7 @@ footer {
     color: #0f181f;
 }
 
-/* about */
+/* About */
 
 .about-container {
     display: grid;
@@ -447,7 +449,7 @@ footer {
     grid-column-start: 4;
 }
 
-/* courses */
+/* Courses */
 
 .courses {
     height: 800px;
@@ -548,7 +550,7 @@ footer {
     margin: 0 15px;
 }
 
-/* sign up */
+/* Sign up */
 
 .sign-up-hero {
     height: 600px;

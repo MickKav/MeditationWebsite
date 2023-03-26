@@ -48,3 +48,14 @@ This project was structured and styled with HTML5 & CSS3.
     - Below their is a motivational message followed by an animated sign up button to speed up the sign up process by jumping them straigh to sign up in case they dont want to go through the sites information first.
     - Beneath the button are the social media links that go directly to their respected pages in new tabs so they dont leave the meditation site.
     - At the bottom of the footer is a makeshift copyright note of the website.
+
+## Validator testing
+
+- HTML
+    - No errors were returned when ran through W3C validator.
+
+- CSS
+    - No errors were returned when ran through the officail (Jigsaw) validator.
+
+- Accessibility
+    - I confirmed that colors and fonts that were used were legible and accessible by running through the lighthouse validatorin chrome dev tools.

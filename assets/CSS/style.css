@@ -51,6 +51,10 @@ body {
     color: #edf2fb;
 }
 
+#toggle {
+    display: none;
+}
+
 #nav-links ul li {
     font-size: 125%;
     list-style: none;
@@ -79,7 +83,7 @@ body {
 }
 #cover-text {
     font-size: 130%;
-    font-family: Source sans pro, sans-serif;
+    font-family: "Source Sans Pro", sans-serif;
     text-transform: uppercase;
     letter-spacing: 4px;
 
@@ -476,7 +480,7 @@ footer {
     border: 1px solid #000;
     background-size: cover;
     color: #0f181f;
-    height: 700px;
+    height: 750px;
     width: 40%;
 }
 
@@ -561,7 +565,7 @@ footer {
 }
 
 .signup-form {
-    margin: 150px 10% 0 0;
+    margin: 150px 15% 0 0;
     border: 2px solid #0f181f;
     color: #edf2fb;
     background-color: rgba(39, 61, 63, 0.6);
@@ -757,6 +761,68 @@ footer {
     }
 
     .about-divider {
+        display: block;
+    }
+}
+
+/* For mobile phone screen size < 600px wide and down */
+
+@media screen and (min-width: 300px) and (max-width: 600px) {
+
+    #header {
+        
+    }
+
+    #cover-text {
+        width: 300px;
+        font-size: 120%;
+    }
+
+    label {
+        font-size: 26px;
+        line-height: 50px;
+        display: block;
+        cursor: pointer;
+    }
+
+    #logo {
+        margin-left: 50px;
+        height: 40px;
+        width: 70px;
+    }
+
+    #menu {
+        background-color: #0f181f;
+        opacity: 80%;
+        display: none;
+        text-align: center;
+        width: 100%;
+    }
+
+    #hamburger {
+        margin: 0;
+    }
+
+    nav {
+        text-align: right;
+    }
+
+    #nav-links {
+        margin: 10px -;
+        text-align: right;
+        flex-direction: column;
+        padding: 0;
+        margin: 0;
+        width: 100%;
+    }
+
+    #nav-links ul li {
+        line-height: 40px;
+        display: block;
+        border-bottom: #edf2fb;
+    }
+
+    #toggle:checked + #menu {
         display: block;
     }
 }

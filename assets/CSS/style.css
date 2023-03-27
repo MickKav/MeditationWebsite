@@ -623,6 +623,10 @@ footer {
     display: none;
 }
 
+label, #toggle {
+    display: none;
+}
+
 /* media queries */
 
 /* For larger to medium size screen size from 1200px wide and down */

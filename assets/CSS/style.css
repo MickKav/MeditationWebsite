@@ -565,7 +565,7 @@ footer {
 }
 
 .signup-form {
-    margin: 150px 15% 0 0;
+    margin: 150px 20% 0 0;
     border: 2px solid #0f181f;
     color: #edf2fb;
     background-color: rgba(39, 61, 63, 0.6);
@@ -623,7 +623,7 @@ footer {
     display: none;
 }
 
-label, #toggle {
+#hamburger, #toggle {
     display: none;
 }
 
@@ -782,7 +782,7 @@ label, #toggle {
         font-size: 120%;
     }
 
-    label {
+    #hamburger {
         font-size: 26px;
         line-height: 50px;
         display: block;
@@ -812,7 +812,7 @@ label, #toggle {
     }
 
     #nav-links {
-        margin: 10px -;
+        margin: 10px 0;
         text-align: right;
         flex-direction: column;
         padding: 0;
@@ -824,6 +824,10 @@ label, #toggle {
         line-height: 40px;
         display: block;
         border-bottom: #edf2fb;
+    }
+
+    .signup-form {
+        margin top: 320px;
     }
 
     #toggle:checked + #menu {

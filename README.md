@@ -98,7 +98,7 @@ This project was structured and styled with HTML5 & CSS3.
 ## Acknowledgements
 
  - Hover feature on navbar was done with tutorial video on youtube by Easy Tutorials [link is here](https://www.youtube.com/watch?v=oYRda7UtuhA&t=1597s&ab_channel=EasyTutorials)
- - Sign up form and home page cover text section were greatly inspired by the love running project template on the Code Institute full stack web development course.
+ - The code for the Sign up form, social media links and home page cover text section was taken from the CI [love running](https://learn.codeinstitute.net/courses/course-v1:CodeInstitute+LR101+2021_T1/courseware/4a07c57382724cfda5834497317f24d5/e6d4cda2bc08458ba94d2092be9bad3a/) project 
  - Stack overflow, W3C, [CSS Tricks](https://css-tricks.com/snippets/css/a-guide-to-flexbox/#aa-flexbox-properties) & freecodecamp were used to source any issues I had with styling or layouts.
  - Information about meditation techniques was inspired by sections written on [chopra.com](https://chopra.com/articles/4-advanced-meditation-techniques-and-tools-to-deepen-your-practice)
  - Information about yoga techniques was inspired by sections written on [oneflowyoga.com](https://oneflowyoga.com/blog/what-is-vinyasa-yoga)
